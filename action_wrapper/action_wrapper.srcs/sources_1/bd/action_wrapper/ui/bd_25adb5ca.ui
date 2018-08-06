@@ -1,0 +1,43 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 TLS
+#  -string -flagsOSRD
+preplace port m_axi_host_mem -pg 1 -y 80 -defaultsOSRD
+preplace port s_axi_ctrl_reg -pg 1 -y 350 -defaultsOSRD
+preplace port ap_clk -pg 1 -y 370 -defaultsOSRD
+preplace port ap_rst_n -pg 1 -y 390 -defaultsOSRD
+preplace port interrupt -pg 1 -y 100 -defaultsOSRD
+preplace inst axis_switch_0 -pg 1 -lvl 3 -y 300 -defaultsOSRD
+preplace inst axi_protocol_convert_0 -pg 1 -lvl 2 -y 400 -defaultsOSRD
+preplace inst axi_protocol_convert_1 -pg 1 -lvl 2 -y 540 -defaultsOSRD
+preplace inst hls_action_0 -pg 1 -lvl 1 -y 290 -defaultsOSRD
+preplace inst axi_perf_mon_0 -pg 1 -lvl 4 -y 440 -defaultsOSRD
+preplace netloc axis_switch_0_M01_AXIS 1 0 4 60 20 N 20 N 20 1230
+preplace netloc axis_switch_0_M00_AXIS 1 0 4 50 10 N 10 N 10 1240
+preplace netloc ap_clk_0_1 1 0 4 30 120 530 310 880 480 1270
+preplace netloc axi_protocol_convert_0_M_AXI 1 2 1 860
+preplace netloc axis_switch_0_M06_AXIS 1 0 4 90 80 N 80 N 80 1200
+preplace netloc axis_switch_0_M05_AXIS 1 0 4 80 70 N 70 N 70 1210
+preplace netloc hls_action_0_axis_m_0 1 1 2 N 180 N
+preplace netloc hls_action_0_axis_m_1 1 1 2 N 200 N
+preplace netloc axis_switch_0_M03_AXIS 1 0 4 40 30 N 30 N 30 1270
+preplace netloc hls_action_0_axis_m_2 1 1 2 N 220 N
+preplace netloc hls_action_0_axis_m_3 1 1 2 N 240 N
+preplace netloc hls_action_0_interrupt 1 1 4 520J 40 NJ 40 NJ 40 1550J
+preplace netloc hls_action_0_m_axi_switch_ctrl_reg 1 1 1 N
+preplace netloc hls_action_0_axis_m_4 1 1 2 N 260 N
+preplace netloc hls_action_0_m_axi_host_mem 1 1 4 550J 270 860J 90 1260J 80 NJ
+preplace netloc hls_action_0_axis_m_5 1 1 2 N 280 N
+preplace netloc hls_action_0_m_axi_perfmon_ctrl_reg 1 1 1 510
+preplace netloc hls_action_0_axis_m_6 1 1 2 N 300 N
+preplace netloc hls_action_0_axis_m_7 1 1 2 N 320 N
+preplace netloc axis_switch_0_M04_AXIS 1 0 4 70 60 N 60 N 60 1220
+preplace netloc axis_switch_0_M02_AXIS 1 0 4 110 50 N 50 N 50 1190
+preplace netloc ap_rst_n_0_1 1 0 4 20 100 540 120 870 100 1260
+preplace netloc s_axi_ctrl_reg_0_1 1 0 1 N
+preplace netloc axi_protocol_convert_1_M_AXI 1 2 2 890J 120 1250
+preplace netloc axis_switch_0_M07_AXIS 1 0 4 100 110 N 110 N 110 1180
+levelinfo -pg 1 0 310 710 1040 1410 1570 -top 0 -bot 800
+",
+}
+
